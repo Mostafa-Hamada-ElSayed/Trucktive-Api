@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trucktive.APIs", "Trucktive.APIs\Trucktive.APIs.csproj", "{D014CD78-F4AB-41E1-9290-DEFA9FDC8EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trucktive.Core", "Trucktive.Core\Trucktive.Core.csproj", "{6E2FCE17-6E33-4DC1-812B-BCF36839FBC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trucktive.Repositories", "Trucktive.Repositories\Trucktive.Repositories.csproj", "{295D1980-7143-40B1-88CA-5F319C63338E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trucktive.Services", "Trucktive.Services\Trucktive.Services.csproj", "{59247EBB-7498-4B6D-A7AF-1F5E17B8C19D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D014CD78-F4AB-41E1-9290-DEFA9FDC8EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D014CD78-F4AB-41E1-9290-DEFA9FDC8EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D014CD78-F4AB-41E1-9290-DEFA9FDC8EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D014CD78-F4AB-41E1-9290-DEFA9FDC8EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2FCE17-6E33-4DC1-812B-BCF36839FBC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2FCE17-6E33-4DC1-812B-BCF36839FBC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2FCE17-6E33-4DC1-812B-BCF36839FBC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2FCE17-6E33-4DC1-812B-BCF36839FBC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295D1980-7143-40B1-88CA-5F319C63338E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295D1980-7143-40B1-88CA-5F319C63338E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295D1980-7143-40B1-88CA-5F319C63338E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295D1980-7143-40B1-88CA-5F319C63338E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59247EBB-7498-4B6D-A7AF-1F5E17B8C19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59247EBB-7498-4B6D-A7AF-1F5E17B8C19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59247EBB-7498-4B6D-A7AF-1F5E17B8C19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59247EBB-7498-4B6D-A7AF-1F5E17B8C19D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
