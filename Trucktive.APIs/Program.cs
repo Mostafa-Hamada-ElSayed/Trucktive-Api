@@ -1,8 +1,12 @@
 
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Trucktive.APIs.Extensions;
 using Trucktive.Core.Entities;
+using Trucktive.Core.Services;
+using Trucktive.Repositories._Data;
 using Trucktive.Repositories._Identity;
+using Trucktive.Services;
 
 namespace Trucktive.APIs
 {
@@ -15,8 +19,13 @@ namespace Trucktive.APIs
             builder.Services.AddControllers();
             
             builder.Services.AddOpenApi();
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")).EnableSensitiveDataLogging(); 
+            });
 
             builder.Services.AddApplicationServices(builder.Configuration);
+            builder.Services.AddScoped<ISupervisorService, SupervisorrService>();
 
             var app = builder.Build();
 
