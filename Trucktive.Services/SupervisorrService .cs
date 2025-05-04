@@ -50,7 +50,6 @@ namespace Trucktive.Services
             };
 
             var result = await _userManager.CreateAsync(user, request.Password);
-
             if (!result.Succeeded)
             {
                 throw new Exception("Failed to create user account");
